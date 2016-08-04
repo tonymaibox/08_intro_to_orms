@@ -2,9 +2,8 @@ class TweetsApp
 
   def call
     puts 'Welcome to Twitter'
+    self.index
   end
-
-  private
 
   def display(tweets)
     tweets.each.with_index(1) do |tweet, i|
