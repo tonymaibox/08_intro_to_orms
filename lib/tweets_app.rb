@@ -2,7 +2,6 @@ class TweetsApp
 
   def call
     puts 'Welcome to Twitter'
-    self.index
   end
 
   def display(tweets)
